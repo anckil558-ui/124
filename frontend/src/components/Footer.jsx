@@ -12,9 +12,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_appdost-remake/artifacts/uq3q8o7c_image.png" 
+                alt="AppDost Logo" 
+                className="w-10 h-10 object-contain"
+              />
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-white">AppDost</span>
                 <span className="text-xs text-blue-400 font-medium">COMPLETE IT SOLUTION</span>
