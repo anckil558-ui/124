@@ -53,8 +53,8 @@ export const projectsData = [
     description: 'An AI-powered study companion for B.Tech students offering personalized learning, career guidance, and placement preparation.',
     image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop',
     technologies: ['React Native', 'Node.js', 'AI/ML'],
-    playStoreUrl: '#',
-    websiteUrl: '#',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.priyesranjan.beumate',
+    websiteUrl: 'https://beumate.app/',
     featured: true
   },
   {
@@ -64,7 +64,7 @@ export const projectsData = [
     description: 'An interactive learning platform designed for aspiring developers to master coding skills through hands-on projects.',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
     technologies: ['Next.js', 'TypeScript', 'PostgreSQL'],
-    websiteUrl: '#',
+    websiteUrl: 'https://devskillquest.com/',
     featured: true
   },
   {
@@ -74,7 +74,7 @@ export const projectsData = [
     description: 'A premium wedding planning platform connecting couples with top vendors, venues, and services.',
     image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop',
     technologies: ['PHP', 'Laravel', 'MySQL'],
-    websiteUrl: '#',
+    websiteUrl: 'https://theweddingschapter.com/',
     featured: true
   },
   {
@@ -84,7 +84,7 @@ export const projectsData = [
     description: 'Full-featured online shopping platform with payment integration and inventory management.',
     image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=600&h=400&fit=crop',
     technologies: ['React', 'Node.js', 'MongoDB'],
-    websiteUrl: '#',
+    websiteUrl: 'https://www.shopify.com/',
     featured: false
   },
   {
@@ -94,7 +94,7 @@ export const projectsData = [
     description: 'Comprehensive healthcare management solution for hospitals and clinics.',
     image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop',
     technologies: ['Angular', 'Java', 'Oracle'],
-    websiteUrl: '#',
+    websiteUrl: 'https://www.epic.com/',
     featured: false
   },
   {
@@ -104,7 +104,7 @@ export const projectsData = [
     description: 'On-demand food delivery application with real-time tracking and payment integration.',
     image: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&h=400&fit=crop',
     technologies: ['React Native', 'Firebase', 'Node.js'],
-    playStoreUrl: '#',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.ubercab.eats',
     featured: false
   }
 ];
