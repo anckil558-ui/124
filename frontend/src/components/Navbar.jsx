@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md' : 'bg-white/80 backdrop-blur-md'
+        isScrolled ? 'bg-gray-900 shadow-md shadow-amber-500/10' : 'bg-gray-900/80 backdrop-blur-md'
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,8 +43,8 @@ const Navbar = () => {
               />
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-900">AppDost</span>
-              <span className="text-xs text-blue-600 font-medium">COMPLETE IT SOLUTION</span>
+              <span className="text-xl font-bold text-white">AppFlow</span>
+              <span className="text-xs text-amber-400 font-medium">BUSINESS ANALYTICS</span>
             </div>
           </Link>
 
@@ -54,10 +54,10 @@ const Navbar = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
+                className={`text-sm font-medium transition-colors hover:text-amber-400 ${
                   location.pathname === link.path
-                    ? 'text-blue-600'
-                    : 'text-gray-700'
+                    ? 'text-amber-400'
+                    : 'text-gray-300'
                 }`}
               >
                 {link.name}
@@ -68,15 +68,15 @@ const Navbar = () => {
           {/* CTA Button */}
           <div className="hidden lg:block">
             <Link to="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-                Get Started
+              <Button className="bg-amber-500 hover:bg-amber-600 text-black font-semibold">
+                Sign In
               </Button>
             </Link>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-gray-700 hover:text-blue-600 transition-colors"
+            className="lg:hidden p-2 text-gray-300 hover:text-amber-400 transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -86,25 +86,25 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden bg-white border-t">
+        <div className="lg:hidden bg-gray-900 border-t border-gray-800">
           <div className="container mx-auto px-4 py-4 space-y-3">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className={`block py-2 text-sm font-medium transition-colors hover:text-blue-600 ${
+                className={`block py-2 text-sm font-medium transition-colors hover:text-amber-400 ${
                   location.pathname === link.path
-                    ? 'text-blue-600'
-                    : 'text-gray-700'
+                    ? 'text-amber-400'
+                    : 'text-gray-300'
                 }`}
               >
                 {link.name}
               </Link>
             ))}
             <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white mt-4">
-                Get Started
+              <Button className="w-full bg-amber-500 hover:bg-amber-600 text-black font-semibold mt-4">
+                Sign In
               </Button>
             </Link>
           </div>
