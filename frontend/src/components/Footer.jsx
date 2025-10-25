@@ -85,40 +85,40 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <span className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
+                <Link to="/services" className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
                   <span className="mr-2 text-blue-500 group-hover:translate-x-1 transition-transform">→</span>
                   Android App Development
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
+                <Link to="/services" className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
                   <span className="mr-2 text-blue-500 group-hover:translate-x-1 transition-transform">→</span>
                   Web Development
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
+                <Link to="/services" className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
                   <span className="mr-2 text-blue-500 group-hover:translate-x-1 transition-transform">→</span>
                   UI/UX Design
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
+                <Link to="/services" className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
                   <span className="mr-2 text-blue-500 group-hover:translate-x-1 transition-transform">→</span>
                   CRM Software
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
+                <Link to="/services" className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
                   <span className="mr-2 text-blue-500 group-hover:translate-x-1 transition-transform">→</span>
                   Cloud Solutions
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
+                <Link to="/services" className="text-sm hover:text-blue-400 transition-colors cursor-pointer flex items-center group">
                   <span className="mr-2 text-blue-500 group-hover:translate-x-1 transition-transform">→</span>
                   Cybersecurity
-                </span>
+                </Link>
               </li>
             </ul>
           </div>
