@@ -71,18 +71,18 @@ const Services = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6">
             {[
-              { name: 'React', icon: 'react', color: 'from-cyan-500 to-blue-600' },
-              { name: 'Node.js', icon: 'nodejs', color: 'from-green-500 to-green-700' },
-              { name: 'Python', icon: 'python', color: 'from-blue-500 to-yellow-500' },
-              { name: 'MongoDB', icon: 'mongodb', color: 'from-green-600 to-green-800' },
-              { name: 'AWS', icon: 'aws', color: 'from-orange-500 to-orange-700' },
-              { name: 'Docker', icon: 'docker', color: 'from-blue-500 to-blue-700' },
-              { name: 'Kotlin', icon: 'kotlin', color: 'from-purple-500 to-purple-700' },
-              { name: 'TypeScript', icon: 'typescript', color: 'from-blue-600 to-blue-800' }
+              { name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+              { name: 'Node.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+              { name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
+              { name: 'MongoDB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
+              { name: 'AWS', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' },
+              { name: 'Docker', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
+              { name: 'Kotlin', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg' },
+              { name: 'TypeScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' }
             ].map((tech, index) => (
-              <div key={index} className="flex flex-col items-center space-y-3 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                <div className={`w-16 h-16 bg-gradient-to-br ${tech.color} rounded-xl flex items-center justify-center`}>
-                  <Icons.Code className="w-8 h-8 text-white" />
+              <div key={index} className="flex flex-col items-center space-y-3 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow group">
+                <div className="w-16 h-16 flex items-center justify-center transform group-hover:scale-110 transition-transform">
+                  <img src={tech.logo} alt={tech.name} className="w-full h-full object-contain" />
                 </div>
                 <span className="text-sm font-semibold text-gray-700">{tech.name}</span>
               </div>
