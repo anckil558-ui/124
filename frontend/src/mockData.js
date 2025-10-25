@@ -116,7 +116,7 @@ export const openSourceProjects = [
     subtitle: 'AI/ML Summer Internship Project',
     description: 'Advanced deep learning model for detecting manipulated media using computer vision and neural networks.',
     technologies: ['AI/ML', 'Jupyter'],
-    githubUrl: '#'
+    githubUrl: 'https://github.com/topics/deepfake-detection'
   },
   {
     id: 2,
@@ -124,7 +124,7 @@ export const openSourceProjects = [
     subtitle: 'Intelligent Python Automation Bot',
     description: 'Smart automation bot built with Python for task scheduling, data processing, and intelligent workflow automation.',
     technologies: ['Python', 'Automation'],
-    githubUrl: '#'
+    githubUrl: 'https://github.com/topics/automation-bot'
   },
   {
     id: 3,
@@ -132,7 +132,7 @@ export const openSourceProjects = [
     subtitle: 'Educational Web Platform',
     description: 'Collection of educational tools and utilities for students and teachers. Interactive learning resources and study aids.',
     technologies: ['HTML/CSS', 'Education'],
-    githubUrl: '#'
+    githubUrl: 'https://github.com/topics/educational-platform'
   },
   {
     id: 4,
@@ -140,7 +140,7 @@ export const openSourceProjects = [
     subtitle: 'Conversational AI Assistant',
     description: 'Intelligent chatbot using Google\'s DialogFlow ES for natural language processing and automated customer support.',
     technologies: ['DialogFlow', 'NLP'],
-    githubUrl: '#'
+    githubUrl: 'https://github.com/topics/dialogflow-chatbot'
   }
 ];
 
