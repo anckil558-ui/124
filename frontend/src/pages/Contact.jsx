@@ -211,8 +211,8 @@ const Contact = () => {
                       />
                     </div>
 
-                    <Button type="submit" size="lg" className="w-full bg-blue-600 hover:bg-blue-700">
-                      Send Message
+                    <Button type="submit" size="lg" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isSubmitting}>
+                      {isSubmitting ? 'Sending...' : 'Send Message'}
                       <Send className="ml-2 w-5 h-5" />
                     </Button>
                   </form>
