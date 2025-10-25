@@ -225,14 +225,21 @@ const Careers = () => {
             Don't see a position that fits?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            We're always looking for talented individuals. Send us your resume!
+            We're always looking for talented individuals. Send us your resume or create one now!
           </p>
-          <Link to="/contact">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-              Get In Touch
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-          </Link>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link to="/resume-creator">
+              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+                Create Resume
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                Get In Touch
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
     </div>
