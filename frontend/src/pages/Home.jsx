@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 pt-24 lg:pt-32 pb-20 lg:pb-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pt-24 lg:pt-32 pb-20 lg:pb-32 overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -47,17 +47,17 @@ const Home = () => {
 
             {/* Floating Stats Cards */}
             <div className="relative h-[500px] hidden lg:block">
-              <div className="absolute top-0 right-0 w-80 bg-white rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform">
+              <div className="absolute top-4 right-8 w-72 bg-white rounded-2xl shadow-xl p-6 transform hover:scale-105 transition-transform animate-float-slow">
                 <Laptop className="w-10 h-10 text-blue-600 mb-3" />
                 <div className="text-3xl font-bold text-blue-600">+10 Projects</div>
                 <div className="text-sm text-gray-600 mt-1">Web Development</div>
               </div>
-              <div className="absolute top-32 right-12 w-72 bg-white rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform">
+              <div className="absolute top-40 right-24 w-64 bg-white rounded-2xl shadow-xl p-6 transform hover:scale-105 transition-transform animate-float-medium">
                 <Smartphone className="w-10 h-10 text-purple-600 mb-3" />
                 <div className="text-3xl font-bold text-purple-600">+4 Apps</div>
                 <div className="text-sm text-gray-600 mt-1">Mobile Apps</div>
               </div>
-              <div className="absolute bottom-20 right-0 w-64 bg-white rounded-2xl shadow-lg p-6 transform hover:scale-105 transition-transform">
+              <div className="absolute bottom-12 right-12 w-64 bg-white rounded-2xl shadow-xl p-6 transform hover:scale-105 transition-transform animate-float-fast">
                 <Rocket className="w-10 h-10 text-orange-500 mb-3" />
                 <div className="text-3xl font-bold text-orange-500">On Time</div>
                 <div className="text-sm text-gray-600 mt-1">Fast Delivery</div>
